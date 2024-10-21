@@ -1,0 +1,632 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(247, 249, 250);
+}
+nav{
+    height: 70px;
+    background-color: white;
+    box-shadow: 2px 10px 20px rgb(225, 224, 224);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+nav img{
+    width:  6.2rem;
+}
+nav span{
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+nav span:hover{
+color: rgb(85, 0, 255);
+}
+
+nav input{
+    width: 28rem;
+    height: 2.8rem;
+    border: 1px solid black;
+    padding-left: 2.5rem;
+    font-size: 0.9rem;
+    border-radius: 1.5rem;
+}
+.fa-magnifying-glass{
+    position: relative;
+    left: 40px;
+    color: rgb(74, 73, 73);
+}
+.fa-cart-shopping{
+    font-size: 1.3rem;
+}
+.fa-cart-shopping:hover{
+    color: rgb(85, 0, 255);
+}
+#btn{
+    margin-left: 0.3rem;
+    width: 5.5rem;
+    height:2.7rem;
+    background: transparent;
+    border: 1px solid black;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: lightgray;
+}
+
+#btn1{
+    margin-left: 0.3rem;
+    width: 5.5rem;
+    height:2.7rem;
+    background: black;
+    font-size: 0.9rem;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+#btn1:hover{
+    background: rgb(49, 48, 48);
+}
+
+#btn2{
+ width: 2.5rem;
+ height:2.7rem ;
+ background: transparent;
+ border: 1px solid black;
+ font-size: 0.9rem;
+ font-weight: bold;
+ cursor: pointer;
+ font-size: 1rem;
+}
+#btn2:hover{
+    background-color: lightgray;
+}
+#section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background: url(./images/back-img.jpg);
+    width: 88%;
+    height: 390px;
+}
+.images{
+    display: flex;
+    justify-content:  start;
+    align-items: center;
+    padding-left: 5rem;
+    padding-top: 1rem;
+}
+.card{
+    width: 420px;
+    height: 250px;
+    background-color: white;
+    padding: 1rem;
+    padding-top: 2rem;
+    margin-top: 3.5rem;
+
+}
+.card h2{
+    width: 350px;
+    font-family:  "Ubuntu", sans-serif;
+}
+.card p{
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+
+}
+.card button{
+    margin-top: 1.9rem;
+    width: 110px;
+    height: 50px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    border: none;
+    outline:none;
+    cursor: pointer;
+}
+.card button:hover{
+    background-color: rgb(46, 44, 44);
+}
+
+
+.names{
+    height: 222px;
+    background-color: white;
+    width: 99.9%;
+    padding: 3rem;
+}
+hr{
+    margin-top: 0.8rem;
+    width: 90%;
+}
+.names h1{
+    font-family: "Prociono", serif;
+    font-size: 3rem;
+}
+.names p{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: rgb(113, 113, 113);
+}
+.para{
+    display: flex;
+    margin-top: 1rem;
+}
+.para #user{
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.para #user:hover{
+    color: black;
+}
+.para #user1{
+    margin-left: 1.3rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.para #user1:hover{
+    color: black;
+}
+
+
+.boxes{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    padding: 2rem;
+    margin-top: 0.9rem;
+}
+.box{
+    padding: 1.3rem;
+    background-color: rgb(44, 42, 42) ;
+    color: white;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+.box:hover{
+    background-color: rgb(64, 62, 62) ;
+}
+.box p{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.box span{
+    font-size:  1rem;
+}
+.box1{
+    padding: 1.2rem;
+    background-color: rgba(233, 230, 230, 0.705) ;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+.box1:hover{
+    background-color:rgb(181, 181, 181) ;
+}
+.box1 p{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.box1 span{
+    font-size: 1rem;
+}
+
+
+
+.crous{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+}
+.card-box{
+    width: 300px;
+    height: 365px;
+    box-shadow: 1px 1px 2px  1px lightgray;
+    border-radius: 0.5rem ;
+}
+.card-box img{
+    width: 300px;
+    height: 170px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.under-card{
+    padding: 1rem;
+}
+.under-card h3{
+    margin-bottom: 0.5rem;
+}
+#img1{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+    margin-left: 0.1rem;
+}
+#span-card{
+    font-size: 0.9rem;
+    color: rgb(95, 96, 97);
+   
+}
+#span-card1{
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+#span-card2{
+    font-size: 0.9rem;
+    color: rgb(95, 96, 97);
+}
+.under-card h4{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+#span-card3{
+    padding: 0.2rem;
+    margin-top: 1rem;
+    background-color: bisque;
+    color: rgb(95, 96, 97);
+}
+
+.card-box1{
+    width: 300px;
+    height: 365px;
+    box-shadow: 1px 1px 2px  1px lightgray;
+    border-radius: 0.5rem ;
+    margin-left: 1rem;
+}
+.card-box1 img{
+    width: 300px;
+    height: 170px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.under-card1{
+    padding: 1rem;
+}
+.under-card1 h3{
+    margin-bottom: 0.5rem;
+}
+
+
+#span1-card{
+    font-size: 0.9rem;
+    color: rgb(95, 96, 97);
+}
+
+#span2-card1{
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+#span3-card2{
+    font-size: 0.9rem;
+    color: rgb(95, 96, 97);
+}
+.under-card1 h4{
+    margin-top: 0.5rem;
+}
+
+
+.yesu{
+    padding: 2rem;
+    margin-left: 7rem;
+    margin-bottom: 0.5rem;
+}
+.yesu button{
+    width: 300px;
+    height: 45px;
+    font-size: 1rem;
+    font-weight: bolder;
+    border: 1px solid black;
+    background: transparent;
+    cursor: pointer;
+}
+.yesu button:hover{
+    background-color: rgb(212, 219, 219);
+}
+
+.logo{
+    width: 99.9%;
+    background-color: white;
+    height: 200px;
+    padding: 1.3rem;
+    margin-bottom: 1rem;
+}
+.logo1{
+    text-align: center;
+    margin-top: 1.3rem;
+}
+.logo1 p{
+    font-size: 1.2rem;
+    color: rgb(122, 123, 124) ;
+}
+.logo2{
+    margin-top: 2.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.display1{
+    padding: 3rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+.display1 h1{
+    font-size: 2.2rem;
+    font-family:  "Ubuntu", sans-serif;
+}
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-left: 1.5rem;
+}
+.user2{
+    margin-top: 0.5rem;
+    width: 520px;
+    height: 160px;
+    padding: 1rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border-left: 10px solid blueviolet ;
+    border-top: 1px solid  blueviolet;
+    border-bottom: 1px solid blueviolet;
+    border-right: 1px solid blueviolet;
+
+}
+.user2 img{
+    width: 79px;
+}
+.left{
+    margin-left: 0.5rem;
+}
+
+.left p{
+    margin-top: 0.5rem;
+    color: rgb(122, 123, 124) ;
+}
+
+
+#img3{
+    margin-top: 0;
+    margin-left: 3rem;
+    width: 600px;
+    height: 665px;
+}
+.interface{
+    padding: 3rem;
+    width: 99.9%;
+    height: 690px;
+    background-color: white;
+}
+.interface h1{
+    font-size: 2.1rem;
+    font-family:  "Ubuntu", sans-serif;
+}
+.interface p{
+    color: rgb(122, 123, 124) ;
+    font-size: 1.3rem;
+}
+.interface1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.interface-card{
+     width:  390px;
+     height: 500px;
+     margin-left: 1rem;
+     box-shadow: 3px 3px 3px 3px lightgray;
+     border-radius: 0.5rem;
+     border-bottom: 1px solid blueviolet;
+     border-right: 1px solid blueviolet;
+     border-left: 1px solid blueviolet;
+     border-top: 10px solid  blueviolet;
+}
+.interface-card1{
+    padding: 1rem;
+    width: 389px;
+    height: 102px;
+    background: rgb(247, 249, 250);
+    border-right: 1px solid blueviolet ;
+}
+.interface-card1 span{
+    font-size: 1rem;
+    color: rgb(122, 123, 124) ;
+}
+.interface-card1 i{
+    color: rgb(122, 123, 124) ;
+    font-size: 1rem;
+}
+.interface-card2{
+    padding: 1rem;
+}
+
+#para{
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+.interface-card2 button{
+    margin-top: 1rem;
+    width: 350px;
+    height: 45px;
+    border: none;
+    outline: none;
+    font-size: 1.22rem;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.udemy-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+    padding: 3rem;
+    height: 550px;
+
+}
+.udemy-images1{
+    width: 280px;
+}
+.udemy-images1 h1{
+    font-size: 2.3rem;
+}
+.udemy-images1 p{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+.udemy-images1 button{
+    width: 180px;
+    height: 40px;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    background-color: white;
+    border: 1px solid black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.udemy-images img{
+width: 80%;
+height: 520px;
+}
+
+
+.udemy-user{
+    width: 99.9%;
+    height: 600px;
+    background-color: white;
+    display: flex;
+}
+.udemy-user1{
+    margin-top: 1rem;
+    padding: 3rem;
+    width: 750px;
+    margin-left: 3rem;
+}
+.udemy-user1 p{
+    font-size: 1.7rem;
+
+}
+.udemy-user1 h1{
+    margin-top: 1rem;
+    font-size: 2.1rem ;
+} 
+.udemy-user2{
+    display: flex;
+    width: 500px;
+}
+.udemy-user3{
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+}
+.udemy-user3 p{
+    font-size: 1rem;
+    color: rgb(122, 123, 124) ;
+}
+
+#btn10{
+    margin-top: 1.5rem;
+    width: 170px;
+    height: 50px;
+    background: black;
+    color: white;
+    font-weight:bolder;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.udemy-user img{
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+}
+
+footer{
+    width: 99.9%;
+    height: 420px;
+    background: rgb(26, 30, 37);
+    color: white;
+}
+
+.udemy-footer{
+    padding: 2.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid  gray;
+}
+.udemy-footer p{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color:white;
+}
+.udemy-footer2 img{
+margin-right: 2rem;
+}
+.udemy-footer1{
+    display: flex;
+    margin-top: 1rem;
+    padding: 2.3rem;
+}
+.udemy1-footer p{
+ margin-top: 0.5rem;
+}
+.udemy2-footer p{
+    margin-top: 0.5rem;
+    margin-left: 6rem;
+}
+#btn30{
+  width: 180px;
+  height: 50px;
+  font-size: 1.1rem;
+  margin-left: 40rem;
+  color: white;
+  font-weight: bolder;
+  background: transparent;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.udemy3-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 2.3rem;
+}
+.udemy3-footer img{
+    width:  6.2rem;
+    color: white;
+}
+
